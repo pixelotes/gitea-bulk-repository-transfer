@@ -20,8 +20,8 @@ A simple Python script to transfer all repositories from one Gitea user or organ
 python3 transfer_repos.py \
   --token <your_gitea_token> \
   --url <https://gitea.example.com> \
-  --from-user <source_user> \
-  --to-user <target_user>
+  --from-user <source_user_or_organization> \
+  --to-user <target_user_or_organization>
 ```
 
 ## License
